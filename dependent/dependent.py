@@ -7,7 +7,8 @@ path.append(dirname(path[0]))
 # End code block
 
 import primary
+from lib_dependent import second
 
 if __name__ == '__main__':
     primary.first()
-    primary.second()
+    second()
